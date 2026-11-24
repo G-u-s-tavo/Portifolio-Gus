@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#71ab56" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Contato | Gustavo</title>
+  </head>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="mx-auto flex w-[min(1100px,calc(100%-3rem))] items-center justify-between gap-4 max-[760px]:w-[calc(100%-2rem)] max-[760px]:flex-col max-[760px]:gap-2">
+          <a class="site-logo" href="index.html" aria-label="Gustavo, página inicial">Gustavo</a>
+          <nav class="flex flex-wrap items-center justify-end gap-1 max-[760px]:w-full max-[760px]:justify-center" aria-label="Navegação principal">
+            <a class="nav-link" href="index.html">Menu</a>
+            <a class="nav-link" href="sobre.html">Sobre mim</a>
+            <a class="nav-link" href="ferramentas.html">Ferramentas</a>
+            <a class="nav-link" href="contato.html" aria-current="page">Contato</a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="conteudo" class="py-16">
+        <div class="mx-auto w-[min(1100px,calc(100%-3rem))] max-sm:w-[calc(100%-2rem)]">
+          <div class="page-heading">
+            <h1 class="mb-4 text-[clamp(2.35rem,5vw,4.5rem)] leading-[1.08]">Contato</h1>
+            <p>Para conhecer meu trabalho ou entrar em contato, estes são os canais que escolhi disponibilizar.</p>
+          </div>
+
+          <section class="grid justify-items-center gap-5 grid-cols-[repeat(auto-fit,minmax(min(100%,260px),1fr))]">
+            <article class="contact-card p-7">
+              <h2 class="mb-2 text-2xl">Gustavo Santos</h2>
+              <p>Técnico em informática e programador</p>
+            </article>
+            <article class="contact-card p-7">
+              <img class="contact-icon" src="img/gmail.png" alt="Ícone do Gmail" />
+              <strong class="mb-2 block">E-mail</strong>
+              <a class="contact-link" href="mailto:santos.gustavo190111@gmail.com?subject=Contato%20pelo%20meu%20portfólio">santos.gustavo190111@gmail.com</a>
+            </article>
+            <article class="contact-card p-7">
+              <img class="contact-icon" src="img/github.png" alt="Ícone do GitHub" />
+              <strong class="mb-2 block">GitHub</strong>
+              <a class="contact-link" href="https://github.com/G-u-s-tavo" target="_blank" rel="noopener noreferrer">github.com/G-u-s-tavo</a>
+            </article>
+          </section>
+
+          <div class="mt-6 flex flex-wrap gap-3 max-[760px]:justify-center">
+            <a class="pill-button" href="mailto:santos.gustavo190111@gmail.com?subject=Contato%20pelo%20meu%20portfólio">Enviar e-mail</a>
+            <a class="pill-button pill-button-light" href="https://github.com/G-u-s-tavo" target="_blank" rel="noopener noreferrer">Abrir GitHub</a>
+          </div>
+          <a class="back-link" href="index.html">← Voltar ao menu principal</a>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="mx-auto w-[min(1100px,calc(100%-3rem))] max-sm:w-[calc(100%-2rem)]">
+          <p>© 2026 Gustavo Santos — Portfólio desenvolvido na disciplina de HTML/CSS.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

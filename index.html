@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#71ab56" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Gustavo | Portfólio</title>
+  </head>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="mx-auto flex w-[min(1100px,calc(100%-3rem))] items-center justify-between gap-4 max-[760px]:w-[calc(100%-2rem)] max-[760px]:flex-col max-[760px]:gap-2">
+          <a class="site-logo" href="index.html" aria-label="Gustavo, página inicial">Gustavo</a>
+          <nav class="flex flex-wrap items-center justify-end gap-1 max-[760px]:w-full max-[760px]:justify-center" aria-label="Navegação principal">
+            <a class="nav-link" href="index.html" aria-current="page">Menu</a>
+            <a class="nav-link" href="sobre.html">Sobre mim</a>
+            <a class="nav-link" href="ferramentas.html">Ferramentas</a>
+            <a class="nav-link" href="contato.html">Contato</a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="conteudo">
+        <section class="hero-panel flex items-center justify-center py-20 max-[760px]:py-14">
+          <div class="mx-auto flex w-[min(1100px,calc(100%-3rem))] flex-wrap items-center justify-center gap-12 max-[760px]:w-[calc(100%-2rem)] max-[760px]:flex-col max-[760px]:gap-6">
+            <div class="hero-symbol basis-[280px] text-center max-[760px]:basis-auto">
+              <img src="img/om.png" alt="" />
+            </div>
+            <div class="max-w-[650px] flex-1 basis-[420px] max-[760px]:basis-auto max-[760px]:text-center">
+              <div class="eyebrow">Portfólio pessoal</div>
+              <h1 class="mb-4 text-[clamp(2.35rem,5vw,4.5rem)] leading-[1.08]">Oii! Sou Gustavo.</h1>
+              <p class="mb-4 max-w-[72ch] leading-[1.8] max-[760px]:mx-auto">
+                É um prazer. Sou estudante do ensino médio e curso informática.
+                Este espaço reúne um pouco de minhas experiências, minha
+                trajetória com a programação, das ferramentas que estou
+                aprendendo e de meus interesses na área da tecnologia.
+              </p>
+              <ul class="mt-6 flex flex-wrap gap-3 p-0 list-none max-[760px]:justify-center">
+                <li><a class="pill-button" href="sobre.html">Sobre mim</a></li>
+                <li><a class="pill-button" href="ferramentas.html">Ferramentas</a></li>
+                <li><a class="pill-button" href="contato.html">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-[var(--creme)] py-16">
+          <div class="mx-auto w-[min(1100px,calc(100%-3rem))] max-sm:w-[calc(100%-2rem)]">
+            <div class="mb-8 max-w-[760px]">
+              <h2 class="mb-3 text-[clamp(1.7rem,3.5vw,2.65rem)] leading-tight">Um pouco do meu universo</h2>
+              <p class="max-w-[72ch]">Tecnologia, aprendizado e curiosidade fazem parte da construção deste portfólio.</p>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(min(100%,245px),1fr))] gap-5">
+              <article class="content-card p-6">
+                <h3 class="mb-2 text-xl">Minha trajetória</h3>
+                <p>Um texto breve sobre quem sou, onde estudo, como comecei e o que pretendo aprender.</p>
+                <a class="card-link" href="sobre.html">Ler sobre mim →</a>
+              </article>
+              <article class="content-card p-6">
+                <h3 class="mb-2 text-xl">Ferramentas</h3>
+                <p>Algumas das linguagens, plataformas e ambientes que fazem parte dos meus estudos.</p>
+                <a class="card-link" href="ferramentas.html">Ver ferramentas →</a>
+              </article>
+              <article class="content-card p-6">
+                <h3 class="mb-2 text-xl">Meu GitHub</h3>
+                <p>Meus projetos e atividades podem ser acompanhados pelo meu perfil no GitHub.</p>
+                <a class="card-link" href="https://github.com/G-u-s-tavo" target="_blank" rel="noopener noreferrer">Abrir GitHub →</a>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="mx-auto w-[min(1100px,calc(100%-3rem))] max-sm:w-[calc(100%-2rem)]">
+          <p>© 2026 Gustavo Santos — Portfólio desenvolvido na disciplina de HTML/CSS.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
